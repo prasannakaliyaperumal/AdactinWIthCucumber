@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Verifying adactin login with credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 558100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6585359400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "LoginPage.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1458307700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"prasannavk\" and \"6D1WWD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prasannavk\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"6D1WWD\"",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginPage.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2407373900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should search hotel by \"Sydney\", \"Hotel Creek\",\"Standard\",\"2 - Two\",\"2 - Two\",\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 83
+                }
+              ],
+              "location": "LoginPage.user_should_search_hotel_by(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 747070000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click select hotel",
+            "match": {
+              "location": "LoginPage.user_should_click_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1940905000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should book a hotel by \"Prasanna\", \"Kumar\", \"Chennai\", \"1231231231231231\", \"VISA\", \"January\", \"2022\", \"996\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Prasanna\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"1231231231231231\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 88
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"996\"",
+                  "offset": 107
+                }
+              ],
+              "location": "LoginPage.user_should_book_a_hotel_by(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5792612500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get OrderNo",
+            "match": {
+              "location": "LoginPage.user_should_get_OrderNo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819797700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should verify success msg",
+            "match": {
+              "location": "LoginPage.user_should_verify_success_msg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying adactin details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/loginpage.feature",
+    "tags": []
+  }
+]
